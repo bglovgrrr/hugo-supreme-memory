@@ -1,5 +1,5 @@
 # Page settings
-baseurl = ""
+baseurl = "https://bglovgrrr.github.io/hugo-supreme-memory/"
 title = "J-Curve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
