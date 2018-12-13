@@ -3,6 +3,7 @@ baseurl = ""
 title = "J-Curve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+publishDir = "docs"
 
 [params]
   
