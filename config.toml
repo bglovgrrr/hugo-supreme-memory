@@ -1,0 +1,291 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "J-Curve"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = "J-Curve"
+  description = "J-Curve Technologies has provided value-add outsourced technical support, customer support services and professional services to help improve the performance, efficiency and profitability of cloud communication and hosted companies since 2006."
+  email = "info@jcurve.com"
+
+  # Google Maps Javascript API Key (if not set will default to not passing a key)
+  googleMapsApiKey = ""
+
+  # Navigation
+  [params.navigation]
+    brand = "J-Curve"
+    home = "Home"
+    services = "About Us"
+    services2 = "Services & Solutions"
+    about = "Our Team"
+    testimonials = "Testimonials"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "/careers/"
+      name = "Careers"
+      weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "J-Curve Technologies<br><strong>Your Cloud Enablement & Support Partner</strong>"
+    subtitle = 'J-Curve helps clients in the Cloud Communications, Hosted VoIP, Streaming Media & Software Development spaces grow their business and increase efficiencies. Our services, including the J-Sync™ Platform, power our offering & help better our clients scale.'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Technical Support Services"
+    description = "J-Curve’s 24x7x365 tier 1 & Tier 2 technical support offerings enhance customer satisfaction and help cloud companies scale rapidly."
+    url="#"
+    navigation = "Services"
+    button = "Who we serve"
+    icon = "icon-support"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Business Process Outsourcing"
+    description = "With a focus on provisioning and activating hosted services, J-Curve’s BPO offering expedites the “quote to cash” processes and assists with implementing best practices."
+    url="#"
+    navigation = "About"
+    button = "What we do"
+    icon = "icon-energy"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "J-Sync™ Analytics & Management Tool"
+    description = "Our proprietary J-Sync™ Platform give you visibility into your business information at the click of a button. Analyze your data and make fact based business decisions in real time."
+    url="#"
+    navigation = "Contact"
+    button = "How we do it"
+    icon = "icon-chart"
+    img = "img_10.jpg"
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "J-Curve is your partner in all  phases of the Cloud Services Lifecycle from Sales to Support"
+    description = "J-Curve is headquartered in Tempe, Arizona with an nearshore facility in Hermosillo, Mexico. Development efforts are conducted in our Austin, Texas location."
+
+    [[params.services.item]]
+      title = "Cloud Communications"
+      description = "We provide technical support services for cloud, UC and UCaaS providers as well assist with development efforts and integration support"
+      icon = "icon-globe"
+
+    [[params.services.item]]
+      title = "Hosted Voice"
+      description = "J-Curve has been supporting hosted VoIP customers since 2006 with a core competency in BroadWorks. Contact us today to find out more."
+      icon = "icon-phone"
+    [[params.services.item]]
+      title = "Streaming Media"
+      description = "J-Curve can supply support at all levels for our Streaming Media clients inclusive of customer care, technical support and billing support"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "Software Development"
+      description = "We provide best practices, security recommendations & holistic strategies to migration and connect systems to the cloud "      
+      icon = "icon-monitor"
+
+  # Services 2 section
+  [params.services2]
+    enable = true
+    title = "What we offer"
+    description = "J-Curve offers 24x7x365, multimedia support in our offshore and nearshore facilities. This includes voice, email, portal, chat and social media interaction types in an inbound and outbound capacity."
+
+    [[params.services2.item]]
+      title = "Technical Support Services"
+      descriptiona = "Tier 1 & 2 Technical Support"
+      descriptionb = "MACD & Service ManagementTasks"
+      descriptionc = "NOC & Fraud Monitoring"
+      icon = "icon-support"
+
+    [[params.services2.item]]
+      title = "Provisioning & Activation Support"
+      descriptiona = "Support of Service Delivery functions"
+      descriptionb = "Product activation & setup for new customers"
+      descriptionc = "Day of Activation support "
+      icon = "icon-power"
+    [[params.services2.item]]
+      title = "Customer care"
+      descriptiona = "Account management & administration"
+      descriptionb = "Billing & triage support"
+      descriptionc = "Customer education & product setup"
+      icon = "icon-like"
+
+      [[params.services2.item]]
+      title = "Professional services"
+      descriptiona = "Consulting & Best Practices Assessments"
+      descriptionb = "Process, Procedure & Workflow Development"
+      descriptionc = "Development & Engineering Functions"
+      icon = "icon-diamond"
+
+      [[params.services2.item]]
+      title = "Managed Services & Cloud integration"
+      descriptiona = "Hosted & J-Curve Managed Cloud Services"
+      descriptionb = "Best Practices & Security Recommendations"
+      descriptionc = "Migration Strategies"
+      icon = "icon-cloud-upload"
+
+      [[params.services2.item]]
+      title = "Workflow Automation & APIs"
+      descriptiona = "Process optimization"
+      descriptionb = "Cloud migration strategies & services"
+      descriptionc = "Data aggregation & integrated reporting"
+      icon = "icon-magic-wand"
+      
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Our Team"
+    description = "J-Curve is a privately held organization headquartered in Tempe, Arizona that provides. Our leadership team works within our organization to drive results and ultimately provide a best of breed Customer Experience."
+
+    [[params.about.item]]
+      name = "Jim Kaiser"
+      position = "President & CEO"
+      description = "James (Jim) A. Kaiser is Founder, President and CEO of J-Curve Technologies with responsibility for the overall vision, leadership, strategic direction and business management of the company."
+      img = "jim-kaiser.jpg"
+      alt = "Photo of Jim Kaiser"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]
+
+    [[params.about.item]]
+      name = "Paul Klotnia"
+      position = "COO"
+      description = "Paul Klotnia is J-Curve’s Vice President of Strategy & Business Development with more than thirty years of experience in the telecommunications and IT industry."
+      img = "paul-klotnia.jpg"
+      alt = "Photo of Paul Klotnia"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]
+
+    [[params.about.item]]
+      name = "Jim King"
+      position = "CFO"
+      description = "Jim King is Chief Finacial Officer for J-Curve Technologies, responsible for Finance and HR functions drawing on 20+ years of experience in finance, mergers & acquisitions, treasury, and banking."
+      img = "jim-king.jpg"
+      alt = "Photo of Jim King"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]     
+
+      [[params.about.item2]]
+      name = "Steve Bonner"
+      position = "VP of QA"
+      description = "With over 20 years experience in contact center operations and the technology industry, Steve is responsible for overseeing all aspects of J-Curve’s operation and IT organizations."
+      img = "steve-bonner.jpg"
+      alt = "Photo of Steve Bonner"
+      social = [
+       ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ] 
+
+      [[params.about.item2]]
+      name = "Jared Hamm"
+      position = "VP of Business Development"
+      description = "Jared Hamm is responsible for J-Curve’s sales efforts and works closely with internal and external stakeholders in order to acquire new business. Jared has more than 15 years of experience in the hosted space."
+      img = "jared-hamm.jpg"
+      alt = "Photo of Jared Hamm"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]     
+   
+      [[params.about.item2]]
+      name = "Otto Ottinger"
+      position = "CTO"
+      description = "Otto heads up development & engineer efforts at J-Curve. He has over 20 years of experience and extensive knowledge and experience in software development, design, and maintenance."
+      img = "otto-ottinger.jpg"
+      alt = "Photo of Otto Ottinger"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]    
+
+      [[params.about.item3]]
+      name = "Nikki Soares"
+      position = "Director of Program Management"
+      description = "Nikki Soares is the Director of Program Management for J-Curve Technologies with more than decade of experience in the hosted space. She has oversight of the Professional Services, Implementation & Sales Support teams."
+      img = "nikki-soares.jpg"
+      alt = "Photo of Nikki Soares"
+      social = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]    
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "What people are saying."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;J-Curve has been providing technical support and customer service for us for two years. During that period of time our net promoter score has increased by 86 points, is considered world class and our internal employees are happier too. We couldn’t have done this without the assistance of J-Curve.&rdquo;"
+      person = 'Sr. Director,<span class="subtext">Customer Care</span>'
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Over the last 13 years and two businesses I’ve leveraged J-Curve’s ability to provide scalable support and infrastructure in order to provide 24 x 7 x 365 support. There J-Sync™ reporting and analytics software allows me to keep my finger on the pulse of our support operation without requiring me to get mired down in the day to day details. Anytime, day or night, our team can easily login and see how the team is performing to ensure we are providing a high quality customer experience.&rdquo;"
+      person = 'Chief Operating Officer,<span class="subtext">Document Imaging Company</span>'
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;When we first engaged with J-Curve Technologies, our service delivery team had a 90 day backlog of new orders. J-Curve has a team of experts in the cloud communications industry, not only did they help us fine tune our implementation process, they developed tools and reports to help us manage it. J-Curve’s ability to quickly and efficiently hire and train experts on our process and procedures helped us eliminate the backlog and achieve industry leading customer implementations for quality and speed.&rdquo;"
+      person = 'Sr. Vice President,<span class="subtext">Cloud Service Delivery Team</span>'
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    form = true
+    title = "Get in touch"
+    description = "How can we help?"
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "200 W. 14th St Suite 121 Tempe, AZ 85281"],
+        ["icon-phone", "(602) 792-6100"],
+        ["icon-envelope", "info@jcurve.com"],
+        ["icon-globe", '<a href="www.jcurve.com" target="_blank">www.jcurve.com</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; 2019 J-Curve Technologies. All Rights Reserved.'
+    links = [
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
+        ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
+      ]
