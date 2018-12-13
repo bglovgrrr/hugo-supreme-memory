@@ -55,7 +55,7 @@ publishDir = "docs"
     title = "Technical Support Services"
     description = "J-Curve’s 24x7x365 tier 1 & Tier 2 technical support offerings enhance customer satisfaction and help cloud companies scale rapidly."
     url="#"
-    navigation = "Services"
+    data-nav-section="about"
     button = "Who we serve"
     icon = "icon-support"
     img = "img_7.jpg"
@@ -262,7 +262,7 @@ publishDir = "docs"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "How can we help?"
