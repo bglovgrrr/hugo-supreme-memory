@@ -74,7 +74,7 @@ publishDir = "docs"
     description = "Our proprietary J-Sync™ Platform give you visibility into your business information at the click of a button. Analyze your data and make fact based business decisions in real time."
     url="#"
     navigation = "Contact"
-    button = "How we do it"
+    button = "Request a Demo"
     icon = "icon-chart"
     img = "img_10.jpg"
 
