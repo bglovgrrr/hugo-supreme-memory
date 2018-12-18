@@ -38,7 +38,7 @@ publishDir = "docs"
 
     # postpended links
     [[menu.postpend]]
-      url = "careers"
+      url = "https://bglovgrrr.github.io/hugo-supreme-memory/careers/"
       name = "Careers"
       weight = 10
   
