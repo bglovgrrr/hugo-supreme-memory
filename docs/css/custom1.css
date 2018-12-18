@@ -649,7 +649,7 @@
   }
   
   #fh5co-services, #fh5co-services2, #fh5co-work, #fh5co-counters {
-    padding: 7em 0;
+    padding: 1em 0;
   }
   @media screen and (max-width: 768px) {
     #fh5co-services, #fh5co-services2, #fh5co-work, #fh5co-counters {

@@ -1,4 +1,4 @@
-	<section id="fh5co-about" data-section="about">
+	<section id="fh5co-about" data-section="about"style="padding-bottom: 2em;">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -46,7 +46,7 @@
 			</div>
 			<div class="row">
 				{{ range .Site.Params.about.item3 }}
-					<div class="col-lg-4">
+					<div class="col-md-offset-4 col-lg-4">
 						<div class="fh5co-person text-center to-animate" style="margin-bottom: 90px;">
 							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 							<h3>{{ .name | markdownify }}</h3>
