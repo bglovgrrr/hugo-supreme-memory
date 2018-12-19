@@ -637,8 +637,8 @@
 
   /* ======================================================= */
 
-  #fh5co-services, #fh5co-services2, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
-    padding: 4em 0;
+  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
+    padding: 2em 0;
   }
 
 
@@ -648,7 +648,7 @@
     }
   }
   
-  #fh5co-services, #fh5co-services2, #fh5co-work, #fh5co-counters {
+  #fh5co-services2 {
     padding: 7em 0;
   }
   @media screen and (max-width: 768px) {
@@ -717,7 +717,6 @@
   }
   #fh5co-services p {
     color: rgb(4, 28, 51, 0.8);
-
   }
   #fh5co-services .section-heading h2.left-border:after {
     background: #1890ff;
