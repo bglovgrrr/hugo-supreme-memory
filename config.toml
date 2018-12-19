@@ -12,10 +12,10 @@ publishDir = "docs"
   # Meta
   author = "J-Curve"
   description = "J-Curve Technologies has provided value-add outsourced technical support, customer support services and professional services to help improve the performance, efficiency and profitability of cloud communication and hosted companies since 2006."
-  email = "mrbrianglover@gmail.com"
+  email = "info@jcurve.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = ""
+  googleMapsApiKey = "AIzaSyAvSQILpn4Oev5kTGg4Dev5s7d5YW2D2HA"
 
   # Navigation
   [params.navigation]
@@ -181,7 +181,7 @@ publishDir = "docs"
     [[params.about.item]]
       name = "Jim King"
       position = "CFO"
-      description = "Jim King is Chief Finacial Officer for J-Curve Technologies, responsible for Finance and HR functions drawing on 20+ years of experience in finance, mergers & acquisitions, treasury, and banking."
+      description = "As Chief Finacial Officer for J-Curve Technologies, Jim is responsible for Finance and HR functions drawing on 20+ years of experience in finance, mergers & acquisitions, treasury, and banking."
       img = "jim-king.jpg"
       alt = "Photo of Jim King"
       social = [
@@ -259,7 +259,7 @@ publishDir = "docs"
   # Contact section
   [params.contact]
     enable = true
-    map = false
+    map = true
     form = true
     title = "Get in touch"
     description = "How can we help?"
