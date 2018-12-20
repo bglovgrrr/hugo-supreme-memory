@@ -7,7 +7,7 @@ publishDir = "docs"
 
 [params]
   
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/custom1.css"]
 
   # Meta
   author = "J-Curve"
@@ -190,7 +190,7 @@ publishDir = "docs"
         ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
       ]     
 
-      [[params.about.item2]]
+      [[params.about.item]]
       name = "Steve Bonner"
       position = "VP of QA"
       description = "With over 20 years experience in contact center operations and the technology industry, Steve is responsible for overseeing all aspects of J-Curve’s operation and IT organizations."
@@ -226,7 +226,7 @@ publishDir = "docs"
         ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
       ]    
 
-      [[params.about.item3]]
+      [[params.about.item2]]
       name = "Nikki Soares"
       position = "Director of Program Management"
       description = "Nikki Soares is the Director of Program Management for J-Curve Technologies with more than decade of experience in the hosted space. She has oversight of the Professional Services, Implementation & Sales Support teams."
@@ -256,7 +256,33 @@ publishDir = "docs"
       quote = "&ldquo;When we first engaged with J-Curve Technologies, our service delivery team had a 90 day backlog of new orders. J-Curve has a team of experts in the cloud communications industry, not only did they help us fine tune our implementation process, they developed tools and reports to help us manage it. J-Curve’s ability to quickly and efficiently hire and train experts on our process and procedures helped us eliminate the backlog and achieve industry leading customer implementations for quality and speed.&rdquo;"
       person = 'Sr. Vice President,<span class="subtext">Cloud Service Delivery Team</span>'
 
-  # Contact section
+   # Counters section
+     [params.counters]
+    enable = true
+    title = "Our results"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Increased “Speed to Cash” interval"
+      icon = "icon-money"
+
+    [[params.counters.item]]
+      description = "Industry leading CSAT & quality scores"
+      icon = "icon-star"
+
+
+    [[params.counters.item]]
+      description = "Churn Reduction & improved customer retention"
+      icon = "icon-emotsmile"
+
+
+    [[params.counters.item]]
+      description = "Workflow optimization & increased efficiencies"
+      icon = "icon-chart"
+
+      
+      
+      # Contact section
   [params.contact]
     enable = true
     map = true

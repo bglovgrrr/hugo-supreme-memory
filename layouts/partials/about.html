@@ -12,7 +12,7 @@
 			</div>
 			<div class="row">
 			{{ range .Site.Params.about.item }}
-				<div class="col-lg-4" style="margin-bottom: 90px;">
+				<div class="col-lg-3" style="margin-bottom: 90px;">
 					<div class="fh5co-person text-center to-animate">
 						<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 						<h3>{{ .name | markdownify }}</h3>
@@ -27,15 +27,15 @@
 				</div>
 			{{ end }}
 			</div>
-			<div class="row">
+			<div class="row justify-content-md-center">
 				{{ range .Site.Params.about.item2 }}
-					<div class="col-lg-4" style="margin-bottom: 90px;">
+					<div class="col-lg-3" >
 						<div class="fh5co-person text-center to-animate">
 							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
 							<h3>{{ .name | markdownify }}</h3>
 							<span class="fh5co-position">{{ .position | markdownify }}</span>
 							<p>{{ .description | markdownify }}</p>
-							<ul class="social social-circle">
+							<ul class="social social-circle wrapper bottom">
 							{{ range .social }}
 								<li><a href="{{ index . 1 }}" target="_blank"><i class="{{ index .  0 }}"></i></a></li>
 							{{ end }}
@@ -44,22 +44,22 @@
 					</div>
 				{{ end }}
 			</div>
-			<div class="row">
-				{{ range .Site.Params.about.item3 }}
-					<div class="col-md-offset-4 col-lg-4">
-						<div class="fh5co-person text-center to-animate" style="margin-bottom: 90px;">
-							<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
-							<h3>{{ .name | markdownify }}</h3>
-							<span class="fh5co-position">{{ .position | markdownify }}</span>
-							<p>{{ .description | markdownify }}</p>
-							<ul class="social social-circle">
-							{{ range .social }}
-								<li><a href="{{ index . 1 }}" target="_blank"><i class="{{ index .  0 }}"></i></a></li>
-							{{ end }}
-							</ul>
-						</div>
-					</div>
-				{{ end }}
+					<!--<div class="row">
+						{{ range .Site.Params.about.item3 }}
+							<div class="col-md-offset-4 col-lg-4">
+								<div class="fh5co-person text-center to-animate" style="margin-bottom: 90px;">
+									<figure><img src="images/{{ .img }}" alt="{{ .alt }}"></figure>
+									<h3>{{ .name | markdownify }}</h3>
+									<span class="fh5co-position">{{ .position | markdownify }}</span>
+									<p>{{ .description | markdownify }}</p>
+									<ul class="social social-circle">
+									{{ range .social }}
+										<li><a href="{{ index . 1 }}" target="_blank"><i class="{{ index .  0 }}"></i></a></li>
+									{{ end }}
+									</ul>
+								</div>
+							</div>
+						{{ end }} -->
 			</div>
 		</div>
 	</section>
