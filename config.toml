@@ -12,7 +12,7 @@ publishDir = "docs"
   # Meta
   author = "J-Curve"
   description = "J-Curve Technologies has provided value-add outsourced technical support, customer support services and professional services to help improve the performance, efficiency and profitability of cloud communication and hosted companies since 2006."
-  email = "info@jcurve.com"
+  email = "nsoares@jcurve.com"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = "AIzaSyAvSQILpn4Oev5kTGg4Dev5s7d5YW2D2HA"
