@@ -191,13 +191,13 @@ publishDir = "docs"
       ]     
 
       [[params.about.item]]
-      name = "Steve Bonner"
-      position = "VP of QA"
-      description = "With over 20 years experience in contact center operations and the technology industry, Steve is responsible for overseeing all aspects of J-Curve’s operation and IT organizations."
-      img = "steve-bonner.jpg"
-      alt = "Photo of Steve Bonner"
+      name = "Otto Ottinger"
+      position = "CTO"
+      description = "Otto heads up development & engineer efforts at J-Curve. He has over 20 years of experience and extensive knowledge and experience in software development, design, and maintenance."
+      img = "otto-ottinger.jpg"
+      alt = "Photo of Otto Ottinger"
       social = [
-       ["icon-twitter", "https://twitter.com/JCurveSupport"],
+        ["icon-twitter", "https://twitter.com/JCurveSupport"],
         ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
         ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
       ] 
@@ -215,16 +215,16 @@ publishDir = "docs"
       ]     
    
       [[params.about.item2]]
-      name = "Otto Ottinger"
-      position = "CTO"
-      description = "Otto heads up development & engineer efforts at J-Curve. He has over 20 years of experience and extensive knowledge and experience in software development, design, and maintenance."
-      img = "otto-ottinger.jpg"
-      alt = "Photo of Otto Ottinger"
+      name = "Steve Bonner"
+      position = "VP of QA"
+      description = "With over 20 years experience in contact center operations and the technology industry, Steve is responsible for overseeing all aspects of J-Curve’s operation and IT organizations."
+      img = "steve-bonner.jpg"
+      alt = "Photo of Steve Bonner"
       social = [
-        ["icon-twitter", "https://twitter.com/JCurveSupport"],
+       ["icon-twitter", "https://twitter.com/JCurveSupport"],
         ["icon-facebook", "https://www.facebook.com/jcurveaz/"],
         ["icon-linkedin", "http://www.linkedin.com/company/j-curve-technologies"]
-      ]    
+      ]   
 
       [[params.about.item2]]
       name = "Nikki Soares"

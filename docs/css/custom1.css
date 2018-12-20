@@ -11,7 +11,13 @@
   *	Edit this section
   *
   * ======================================================= */
-  body {
+  .row,
+.nested,
+.block {
+overflow: visible;
+}
+
+body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 300;
     font-size: 20px;
@@ -654,7 +660,7 @@
   /* ======================================================= */
 
   #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about {
-    padding: 2em 0;
+    padding: 7em 0;
   }
 
 
