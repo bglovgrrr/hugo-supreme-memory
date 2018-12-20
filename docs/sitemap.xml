@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bglovgrrr.github.io/hugo-supreme-memory/careers/</loc>
+    <loc>/careers/</loc>
     <lastmod>2018-12-13T09:06:26-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bglovgrrr.github.io/hugo-supreme-memory/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bglovgrrr.github.io/hugo-supreme-memory/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bglovgrrr.github.io/hugo-supreme-memory/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
