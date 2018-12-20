@@ -25,7 +25,6 @@
 
   @media only screen and (max-width: 600px) {
   .justify-content-md-center {
-    background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
     margin-right: 1px!important;
