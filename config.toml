@@ -1,5 +1,5 @@
 # Page settings
-baseurl = ""
+baseurl = "https://bglovgrrr.github.io/hugo-supreme-memory/"
 title = "J-Curve"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -38,7 +38,7 @@ publishDir = "docs"
 
     # postpended links
     [[menu.postpend]]
-      url = "http://localhost:1313/hugo-supreme-memory/careers/"
+      url = "https://bglovgrrr.github.io/hugo-supreme-memory/ccareers/"
       name = "Careers"
       weight = 10
   
